@@ -24,7 +24,7 @@ public class HelloController {
 
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX!");
+        welcomeText.setText("This is the welcome text");
         nameText.setRotate(-15);
     }
 
